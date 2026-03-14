@@ -1,0 +1,21 @@
+{
+  "name": "notionflow-mcp",
+  "version": "1.0.0",
+  "description": "AI Startup OS powered by Notion MCP — autonomous agents for tasks, CRM, finance & content",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "once": "node index.js --once",
+    "setup": "node setup.js"
+  },
+  "keywords": ["notion", "mcp", "ai", "startup", "automation", "crm", "productivity"],
+  "author": "NotionFlow",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
